@@ -1,0 +1,53 @@
+.feedback__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.feedback__title {
+    font-size: 1.8rem;
+    margin-bottom: 1.5rem;
+    color: var(--accent-color);
+    text-align: center;
+}
+
+.feedback__image-wrapper {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 2rem;
+}
+
+.feedback__image {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+.feedback__pollution-meter {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.feedback__meter-label {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.feedback__scale {
+    width: 100%;
+    height: 20px;
+    background-color: var(--border-color);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.feedback__indicator {
+    height: 100%;
+    transition: width 0.3s ease;
+    border-radius: 10px;
+}

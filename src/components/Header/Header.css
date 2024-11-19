@@ -1,0 +1,20 @@
+.logo-team {
+    filter: brightness(0) invert(1);
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    max-width: 12%;
+}
+
+.logo-team {
+    margin-top: 1%;
+}
+
+.fixed-container {
+    margin: 0 5%;
+}
