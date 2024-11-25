@@ -8,7 +8,7 @@ function Feedback({ imageUrl, pollutionLevel }) {
                 <img src={imageUrl} alt="Uploaded Preview" className="feedback__image" />
             </div>
             <div className="feedback__pollution-meter">
-                <label className="feedback__meter-label">Pollution Level: {pollutionLevel}/100</label>
+                <label className="feedback__meter-label">Уровень загрязнения: {pollutionLevel}/100</label>
                 <div className="feedback__scale">
                     <div
                         className="feedback__indicator"
