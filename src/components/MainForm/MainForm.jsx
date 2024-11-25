@@ -54,7 +54,7 @@ function MainForm() {
 
                 <div 
                     className={`form__dropzone ${isDragActive ? 'active' : ''}`} 
-                    onClick={handleDropzoneClick} // Добавлено событие клика
+                    onClick={handleDropzoneClick}
                     onDragEnter={handleDragEnter} 
                     onDragLeave={handleDragLeave} 
                     onDragOver={(e) => e.preventDefault()} 
